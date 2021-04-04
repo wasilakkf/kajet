@@ -1,0 +1,10 @@
+{
+  "name": "kajet",
+  "version": "0.0.1",
+  "description": "Notes in the browser",
+  "main": "index.js",
+  "repository": "git@github.com:wasilakkf/kajet.git",
+  "author": "Krzysztof Wasilak <krzysztof.wasilak@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
