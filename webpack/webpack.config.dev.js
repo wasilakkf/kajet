@@ -10,11 +10,11 @@ module.exports = merge(webpackBaseConfig, {
     compress: true,
     open: true,
     overlay: true,
-    stats: 'minimal'
+    stats: 'minimal',
   },
   plugins: [
     new webpack.EvalSourceMapDevToolPlugin({
-      exclude: /node_modules/
-    })
-  ]
+      exclude: /node_modules/,
+    }),
+  ],
 });
